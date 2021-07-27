@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+body {
+	overflow: hidden;
+	background: #2193b0;  
+	background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0); 
+	background: linear-gradient(to right, #6dd5ed, #2193b0); 
+}
+
+input {
+	font-family: 'Pangolin', cursive;
+	font-size: 25px;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.calculator {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	border-radius: 20px;
+	background-color: #b0e0e6;
+
+}
+
+.calculator .result {
+	width: 95%;
+	height: 60px;
+	text-align: right;
+	border: 0;
+	border-radius: 10px;
+	background-color: #dff2f5;
+}
+
+.buttons {
+	width: 95%;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.buttons input {
+	color: #211722;
+	background-color: #dff2f5;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.left-side {
+	width: 75%;
+}
+
+.left-side input {
+	margin-right: 4px;
+}
+
+.right-side {
+	width: 20%;
+	margin-left: 10px;
+}
+
+
+.button-regular {
+	width: 30%;
+	height: 40px;
+	margin: 5px 0;
+}
+
+
+.right-side .button-regular {
+	width: 100%;
+}
+
+.button-long {
+	width: 80px;
+	height: 40px;
+	margin: 5px 0;
+
+}
+
+.button-tall {
+	width: 100%;
+	height: 36%;
+	margin: 5px 0;
+}
+
+.bottom .button-long {
+	width: 64%;
+}
+
+#resultButton {
+	background-color: #63acaa;
+	color: #fff;
+}
+
+#clear {
+	background-color: #ff0051;
+	color: #fff;
+}
